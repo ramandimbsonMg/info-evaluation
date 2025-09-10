@@ -36,9 +36,9 @@ TIA Evaluation est une application web littéraire construite avec **React.js** 
 
 1. **Cloner le projet :**
 ```bash
-# git clone <votre-repository-url>
+git clone https://github.com/ramandimbsonMg/info-evaluation.git
 extraire la projet ensuite...
-cd tia-info-evaluation
+cd info-evaluation
 Installer les dépendances :
 
 bash
@@ -55,7 +55,7 @@ Ouvrir http://localhost:5173 dans votre navigateur.
 Structure du projet
 php
 Copier le code
-tia-info-evaluation/
+info-evaluation/
 ├─ public/
 │  ├─ assets/
 │  │  └─ images/        # Images des livres et illustrations
