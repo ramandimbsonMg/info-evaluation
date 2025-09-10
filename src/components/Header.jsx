@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className='container mx-auto px-6 py-4 flex justify-between items-center'>
         {/* Logo / Nom du site */}
         <NavLink to='/' className='text-black font-bold text-3xl'>
-          Evalution.<span className='text-yellow-300'>mg</span>
+          Evalution.<span className='text-yellow-300'>mg</span>  
         </NavLink>
 
         {/* Menu desktop */}
