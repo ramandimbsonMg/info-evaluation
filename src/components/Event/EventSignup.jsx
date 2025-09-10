@@ -46,7 +46,7 @@ export default function EventSignup({ event }) {
   };
 
   return (
-    <div className='p-6 bg-white rounded-xl shadow-md max-w-md mx-auto border border-gray-200'>
+    <div className='space-y-4 p-4 bg-white rounded-2xl shadow-lg border border-cyan-100 max-w-md mx-auto'>
       {/* Titre de l'événement */}
       <h3 className='font-bold text-lg text-cyan-600 mb-1'>{event.title}</h3>
       <p className='text-sm text-gray-500 mb-4'>
@@ -72,17 +72,17 @@ export default function EventSignup({ event }) {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder='Votre nom'
-          className='w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-cyan-400 transition'
+          className='w-full p-3 border border-cyan-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-transparent resize-none transition'
         />
         <input
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder='Votre email'
-          className='w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-cyan-400 transition'
+          className='w-full p-3 border border-cyan-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-transparent resize-none transition'
         />
         <button
           type='submit'
-          className='w-full bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-4 py-3 rounded-xl transition'
+          className='w-full bg-cyan-600 text-white font-semibold px-4 py-3 rounded-xl transition'
         >
           Je participe
         </button>

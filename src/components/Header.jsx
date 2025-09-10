@@ -13,8 +13,8 @@ export default function Navbar() {
     <nav className='bg-white shadow-md sticky top-0 z-50'>
       <div className='container mx-auto px-6 py-4 flex justify-between items-center'>
         {/* Logo / Nom du site */}
-        <NavLink to='/' className='text-cyan-600 font-bold text-3xl'>
-          TIA <span className='text-yellow-300'>Evaluation</span>
+        <NavLink to='/' className='text-black font-bold text-3xl'>
+          Evalution.<span className='text-yellow-300'>mg</span>
         </NavLink>
 
         {/* Menu desktop */}

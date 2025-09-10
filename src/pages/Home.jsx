@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div className='relative bg-gray-50 min-h-screen flex flex-col'>
       {/* Hero Section */}
-      <div className='relative bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 text-white overflow-hidden'>
+      <div className='relative lg:h-full h-screen bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 text-white overflow-hidden'>
         <div className='container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between px-6 py-16 md:py-24'>
           {/* Texte Hero */}
-          <div className='md:w-1/2 space-y-6'>
-            <h1 className='text-4xl md:text-5xl font-extrabold leading-tight animate-fadeIn'>
+          <div className='md:w-1/2 space-y-6 z-20 lg:pt-0 pt-20 lg:text-start text-center'>
+            <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight animate-fadeIn'>
               Bienvenue sur{' '}
               <span className='text-yellow-300'>TIA Evaluation</span>
             </h1>
@@ -18,7 +18,7 @@ export default function Home() {
               Explorez les sections et commencez votre expérience
               d’apprentissage et de partage.
             </p>
-            <div className='flex flex-col sm:flex-row gap-4 mt-6 animate-fadeIn delay-400'>
+            <div className='flex flex-col lg:justify-start justify-center items-center sm:flex-row gap-4 mt-6 animate-fadeIn delay-400'>
               <Link
                 to='/social'
                 className='px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-white/90 transition'
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
           {/* Image Hero */}
-          <div className='md:w-1/2 mt-10 md:mt-0 animate-float'>
+          <div className='md:w-1/2 lg:opacity-100 opacity-20 z-10 mt-10 md:mt-0 lg:relative absolute animate-float'>
             <img
               src='/assets/images/adolescent-male-bulle-dialogue.png'
               alt='Livres et éducation'
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       {/* Section Blocs */}
-      <div className='container mx-auto max-w-7xl pt-12 pb-16 px-6 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <div className='container mx-auto max-w-7xl pt-12 pb-16 px-6 grid grid-cols-2 md:grid-cols-3 gap-8'>
         {/* Bloc Réseau Social */}
         <div className='p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2 animate-slideUp'>
           <div className='flex justify-center mb-4'>

@@ -27,12 +27,12 @@ export default function CatalogPage() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder='Rechercher titre ou auteur...'
-          className='w-full p-3 border border-cyan-200 w-80 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-transparent transition'
+          className='w-full p-3 border border-cyan-200 lg:w-80 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-transparent transition'
         />
         <select
           value={sort}
           onChange={(e) => setSort(e.target.value)}
-          className='w-full p-3 border border-cyan-200 w-[200px] rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-transparent transition'
+          className='w-full p-3 border border-cyan-200 lg:w-[200px] rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:border-transparent transition'
         >
           <option value=''>Trier</option>
           <option value='title'>Titre</option>
